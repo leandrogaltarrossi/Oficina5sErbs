@@ -1,0 +1,100 @@
+{
+  "title": "Oficina 5S",
+  "hook": "Aprenda cinco s na oficina",
+  "game_overview": "Pratique a metodologia 5S na oficina mec\u00e2nica com o Piloto 5S e a equipe t\u00e9cnica em 5 fases completas de triagem, organiza\u00e7\u00e3o, limpeza, seguran\u00e7a e disciplina.",
+  "artstyle": "cartoon",
+  "genre": "puzzle",
+  "winning_condition": "Completar com sucesso os desafios das 5 fases do 5S e receber o trof\u00e9u de excel\u00eancia na oficina.",
+  "losing_condition": "Nenhum estado punitivo de derrota; tentativas incorretas oferecem dicas visuais gentis para refor\u00e7ar o aprendizado infantil.",
+  "player_mode": "single_player",
+  "supported_orientations": [
+    "landscape"
+  ],
+  "input_methods": [
+    "touch",
+    "mouse"
+  ],
+  "score_options": {
+    "score_type": "points",
+    "score_order": "higher_is_better"
+  },
+  "low_end_device_support": true,
+  "mobile_playable": true,
+  "tv_playable": false,
+  "language": [
+    "pt"
+  ],
+  "content_descriptors": [],
+  "controls": [
+    {
+      "input": "Clique e Arraste / Toque e Arraste",
+      "action": "Segura pe\u00e7as, ferramentas, placas e produtos de limpeza para soltar no destino correto."
+    },
+    {
+      "input": "Toque / Clique Simples",
+      "action": "Interage com di\u00e1logos do Piloto Erbs, bot\u00f5es de ajuda e navega\u00e7\u00e3o de fases."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Design Pillars",
+      "content": "1. Aprendizado Intuitivo: Ensinar os princ\u00edpios dos 5 sensos (Seiri, Seiton, Seiso, Seiketsu, Shitsuke) de maneira pr\u00e1tica e acess\u00edvel para crian\u00e7as a partir de 5 anos. 2. Feedback Positivo e Encorajador: Oper\u00e1rios e o Piloto Erbs celebram cada acerto com aplausos e anima\u00e7\u00f5es vibrantes. 3. Intera\u00e7\u00e3o T\u00e1til Agrad\u00e1vel: Mec\u00e2nicas t\u00e1teis e fluidas de arrastar, soltar, esfregar e encaixar itens.",
+      "summary": "Pilares fundamentais da experi\u00eancia l\u00fadica e educativa."
+    },
+    {
+      "title": "Core Loop",
+      "content": "O jogador inicia uma fase com a instru\u00e7\u00e3o e fala empolgante do Piloto Erbs -> Analisa o cen\u00e1rio da oficina com os itens desorganizados -> Arrasta e solta cada elemento no alvo correto (caixas, prateleiras, lixeiras, pain\u00e9is) -> Oper\u00e1rios no fundo reagem com aplausos nos acertos e gestos de aten\u00e7\u00e3o em erros -> Ganha estrelas e efeitos de brilho -> Avan\u00e7a para o pr\u00f3ximo senso at\u00e9 a grande celebra\u00e7\u00e3o com trof\u00e9u 5S.",
+      "summary": "Ciclo de jogo por fases guiadas pelo Piloto Erbs."
+    },
+    {
+      "title": "Core Mechanics",
+      "content": "Fase 1 (Seiri - Utiliza\u00e7\u00e3o e Descarte): Classificar itens \u00fateis (bateria boa, ferramentas) na Caixa Verde e itens danificados/lixo (bateria vazando, parafusos enferrujados) na Caixa Vermelha. Fase 2 (Seiton - Organiza\u00e7\u00e3o): Encaixar itens nos seus devidos locais (baterias na prateleira, ferramentas na caixa, caderno na gaveta, uniforme no arm\u00e1rio, vassouras nos ganchos). Fase 3 (Seiso - Limpeza): Arrastar lixo para a lixeira, esfregar mancha de graxa com esponja at\u00e9 sumir, passar limpa-vidros na janela e passar mop/aspirador no piso com part\u00edculas de brilho. Fase 4 (Seiketsu - Padroniza\u00e7\u00e3o e Higiene): Posicionar placas de seguran\u00e7a ('Piso Molhado', 'Alta Voltagem', 'Uso Obrigat\u00f3rio de Capacete', 'Lixeira de Reciclagem') nos locais indicados. Fase 5 (Shitsuke - Disciplina e H\u00e1bito): Mini-desafio din\u00e2mico de check-up combinando recolher lixo, guardar ferramenta e polir bancada, culminando na entrega do Trof\u00e9u 5S e bandeirada de corrida.",
+      "summary": "Mec\u00e2nicas espec\u00edficas para cada uma das 5 fases."
+    },
+    {
+      "title": "Movement & Scrolling Alignment",
+      "content": "Scrolling Axis: Est\u00e1tico (Single Screen Workshop Viewport). Todo o ambiente de trabalho e bancadas s\u00e3o vis\u00edveis simultaneamente no canvas 16:9. Asset Orientation: Entidades e personagens voltados para o centro da oficina. F\u00edsica de arrastar e soltar com encaixe magn\u00e9tico suave quando pr\u00f3ximo ao destino v\u00e1lido.",
+      "summary": "Posicionamento fixo de tela cheia sem rolagem de c\u00e2mera."
+    },
+    {
+      "title": "Visual Hierarchy & Layering",
+      "content": "Plano de Fundo (Camada 1): Oficina aconchegante com bancadas e oper\u00e1rios animados ao fundo em tons suaves. Plano de Jogo (Camada 2): Itens interativos, caixas coloridas com contornos brilhantes e \u00e1reas de encaixe destacadas. Plano do Mascote (Camada 3): Piloto Erbs com bal\u00f5es de fala ilustrados e rea\u00e7\u00f5es din\u00e2micas. Plano de Efeitos e UI (Camada 4): Part\u00edculas de estrelas douradas, brilhos de limpeza, confetes, bot\u00f5es grandes e pontua\u00e7\u00e3o.",
+      "summary": "Separa\u00e7\u00e3o n\u00edtida de planos visuais para m\u00e1xima clareza infantil."
+    },
+    {
+      "title": "Characters & Enemies",
+      "content": "Piloto Erbs: O simp\u00e1tico piloto de testes e mec\u00e2nico her\u00f3i com capacete de corrida e \u00f3culos de prote\u00e7\u00e3o na testa que guia o jogador com entusiasmo. Oper\u00e1rios da F\u00e1brica (NPCs): Equipe ao fundo vestindo macac\u00f5es e capacetes coloridos que aplaudem, fazem sinal de positivo (joia) nos acertos e demonstram curiosidade/d\u00favida amig\u00e1vel caso um item seja solto no local incorreto.",
+      "summary": "Mascote heroico e torcida de oper\u00e1rios da f\u00e1brica."
+    },
+    {
+      "title": "Fairness Tools",
+      "content": "\u00c1reas de soltura exibem silhuetas ou halos iluminados quando o item correto \u00e9 selecionado. Mensagens de voz em bal\u00f5es ilustrados f\u00e1ceis de entender. Feedback visual imediato sem penalidades ou Game Over frustrante.",
+      "summary": "Aux\u00edlios visuais e design acolhedor para crian\u00e7as."
+    },
+    {
+      "title": "Juice & Game Feel",
+      "content": "Anticipation Juice: Itens aumentam levemente de tamanho (escala 1.1x) com sombra projetada ao serem pegos. State Change Juice: Rastros de estrelinhas brilhantes ao arrastar ferramentas e esponjas. Impact Juice: Efeito de 'snap' sonoro alegre ao encaixar, chuva de confetes, estrelas douradas subindo e oper\u00e1rios vibrando ao concluir cada fase.",
+      "summary": "Respostas visuais e sonoras gratificantes."
+    },
+    {
+      "title": "Social Mechanics & Audience",
+      "content": "Desenvolvido especialmente para crian\u00e7as a partir de 5 anos, escolas e atividades educativas sobre organiza\u00e7\u00e3o, seguran\u00e7a no trabalho e metodologia 5S.",
+      "summary": "P\u00fablico-alvo infantil e valor educativo familiar."
+    },
+    {
+      "title": "Accessibility",
+      "content": "Bot\u00f5es grandes e zonas de clique generosas. Alto contraste entre itens interativos e o cen\u00e1rio. Sons alegres complementados por anima\u00e7\u00f5es textuais e visuais claras.",
+      "summary": "Acessibilidade visual e motora."
+    },
+    {
+      "title": "Structural Integrity",
+      "content": "Menu Principal -> Mapa de Fases (Fase 1 a 5 desbloque\u00e1veis) -> Gameplay da Fase selecionada com introdu\u00e7\u00e3o do Piloto Erbs -> Conclus\u00e3o com 3 Estrelas -> Tela de Vit\u00f3ria Final com Cerim\u00f4nia do Trof\u00e9u 5S e foto com a equipe.",
+      "summary": "Fluxo estruturado do jogo e transi\u00e7\u00f5es entre fases."
+    },
+    {
+      "title": "Virtual Touch Controls Implementation",
+      "content": "Sistema de pointer events nativo ('pointerdown', 'pointermove', 'pointerup', 'pointercancel') garantindo suporte cont\u00ednuo para mouse e telas touch, com touch-action: none no canvas para evitar rolagem acidental da p\u00e1gina.",
+      "summary": "Compatibilidade touch total em telas m\u00f3veis e tablets."
+    }
+  ]
+}

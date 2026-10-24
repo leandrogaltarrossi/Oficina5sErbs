@@ -1,0 +1,73 @@
+{
+  "schema": [
+    {
+      "name": "pointsPerCorrectPlacement",
+      "type": "number",
+      "label": "Pontos por Acerto",
+      "default": 100,
+      "min": 25,
+      "max": 300,
+      "step": 25
+    },
+    {
+      "name": "snapMagneticDistance",
+      "type": "number",
+      "label": "Distância de Encaixe",
+      "default": 95,
+      "min": 50,
+      "max": 180,
+      "step": 5
+    },
+    {
+      "name": "scrubProgressPerMove",
+      "type": "number",
+      "label": "Velocidade de Limpeza",
+      "default": 2.2,
+      "min": 1.0,
+      "max": 5.0,
+      "step": 0.2
+    },
+    {
+      "name": "autoAdvanceDelayMs",
+      "type": "number",
+      "label": "Tempo para Próxima Fase (ms)",
+      "default": 2200,
+      "min": 1000,
+      "max": 5000,
+      "step": 200
+    },
+    {
+      "name": "showMagneticOutline",
+      "type": "boolean",
+      "label": "Mostrar Destaque nos Alvos",
+      "default": true
+    },
+    {
+      "name": "defaultMusicVolume",
+      "type": "number",
+      "label": "Volume da Música",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "step": 0.1
+    },
+    {
+      "name": "defaultSfxVolume",
+      "type": "number",
+      "label": "Volume dos Efeitos (SFX)",
+      "default": 0.7,
+      "min": 0,
+      "max": 1,
+      "step": 0.1
+    }
+  ],
+  "values": {
+    "pointsPerCorrectPlacement": 100,
+    "snapMagneticDistance": 95,
+    "scrubProgressPerMove": 2.2,
+    "autoAdvanceDelayMs": 2200,
+    "showMagneticOutline": true,
+    "defaultMusicVolume": 0.5,
+    "defaultSfxVolume": 0.7
+  }
+}
